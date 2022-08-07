@@ -71,6 +71,7 @@ function getStars(arr) {
     })
     return parentDiv;
 }
+
 function getStarsBCS(arr2) {
     let parentDiv = document.createElement("div");
     parentDiv.className = "stars";
@@ -128,18 +129,6 @@ document.querySelector(".particular").addEventListener("click", function () {
         console.log(error);
     })
 })
-
-// document.querySelector(".all").addEventListener("click", function () {
-//     for (let id = 1; id < 57; id++) {
-//         getCharacter(id).then(data => {
-//             let { img, name, nickname, status, occupation } = data[0];
-//             occupation = occupation[0];
-//             appendCard(createCard(img, name, nickname, status, occupation));
-//         }).catch(error => {
-//             console.log(error);
-//         })
-//     }
-// })
 
 async function getAllCharacters() {
     const requestURL = 'https://www.breakingbadapi.com/api/characters';
