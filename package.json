@@ -1,0 +1,14 @@
+{
+  "name": "16-breaking-bad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "dead-server --port=3026 --host=localhost"
+  },
+  "author": "Agne",
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  }
+}
